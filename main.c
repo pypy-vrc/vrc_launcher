@@ -34,7 +34,7 @@ int main(int argc, const char **argv)
 		strcat(buf, "--no-vr ");
 	}
 
-	strcat(buf, "--enable-debug-gui ");
+	strcat(buf, "--enable-debug-gui --enable-sdk-log-level ");
 	strcat(buf, &p[2]);
 
 	memset(&startupinfo, 0, sizeof(startupinfo));
